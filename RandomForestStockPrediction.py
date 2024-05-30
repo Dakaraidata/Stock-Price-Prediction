@@ -9,6 +9,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
 
+server = app.server
+
 # Define helper functions
 def load_data(symbol, start, end):
     stock = yf.Ticker(symbol)
