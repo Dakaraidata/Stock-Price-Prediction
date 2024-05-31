@@ -1,6 +1,0 @@
-numpy
-pandas
-streamlit
-plotly
-yfinance
-gunicorn==19.7.1
