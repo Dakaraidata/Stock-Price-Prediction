@@ -1,3 +1,5 @@
+server = app.server
+
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -8,8 +10,6 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import plotly.graph_objects as go
 import plotly.express as px
 import streamlit as st
-
-server = app.server
 
 # Define helper functions
 def load_data(symbol, start, end):
