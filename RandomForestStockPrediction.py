@@ -502,7 +502,7 @@ def getNet_profit_margin(symbol):
 
 # Streamlit interface
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
-
+st.markdown("<br>", unsafe_allow_html=True)
 st.title("🔮 Ticker Predicter Dashboard")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 st.set_option('deprecation.showPyplotGlobalUse', False)
