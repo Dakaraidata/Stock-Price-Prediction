@@ -3,4 +3,6 @@ showErrorDetails = false
 
 [theme]
 primaryColor = "#F63366"
-backgroundColor = "black"
+backgroundColor = "#0E1117"
+textColor = "#FAFAFA"
+secondaryBackgroundColor="#262730"
