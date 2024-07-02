@@ -707,7 +707,7 @@ if page == "Ticker Predictor Dashboard":
 
         
         with con12:
-            st.header(f"🔭 Next Predicted Closing Price: ${predicted_price[0]:.2f}")
+            st.header(f"🔭 Next Closing Price Prediction: ${predicted_price[0]:.2f}")
 
     # Display content in the second column (one row)
     with col12:
