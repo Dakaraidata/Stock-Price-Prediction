@@ -543,7 +543,7 @@ stock_name = get_stock_name(symbol)
 symbol = symbol.upper()
 
 # User interface pages
-page = st.sidebar.radio("Navigation", ["Ticker Predictor Dashboard", "Model Performance Metrics", "Stock Charts", "Additional Stock Company Info"])
+page = st.sidebar.radio("Navigation", ["Ticker Predicter Dashboard", "Model Performance Metrics", "Stock Charts", "Additional Stock Company Info"])
 
 
 
