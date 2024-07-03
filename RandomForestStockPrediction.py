@@ -786,7 +786,7 @@ elif page == "Stock Charts":
 
     # Create a heatmap of the stock data
 
-    plt.figure(figsize=(8.4615, 6.9231))
+    plt.figure(figsize=(8, 6.9231))
     sns.heatmap(data.corr(), annot=True, cmap='coolwarm')
     plt.gcf().patch.set_alpha(0.4)
     plt.title('Correlation Heatmap of Stock Data')
