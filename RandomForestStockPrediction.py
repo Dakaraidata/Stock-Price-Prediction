@@ -543,7 +543,7 @@ stock_name = get_stock_name(symbol)
 symbol = symbol.upper()
 
 # User interface pages
-page = st.sidebar.radio("Navigation", ["Ticker Predictor Dashboard", "Model Performance Metrics", "Stock Charts", "Additional Stock Company Info"])
+page = st.sidebar.radio("Navigation", ["Ticker Predicter Dashboard", "Model Performance Metrics", "Stock Charts", "Additional Stock Company Info"])
 
 
 
@@ -692,8 +692,8 @@ def create_radar_chart(symbol):
 
     # Define a layout with two columns
 
-# Page: Ticker Predictor Dashboard
-if page == "Ticker Predictor Dashboard":   
+# Page: Ticker Predicter Dashboard
+if page == "Ticker Predicter Dashboard":   
     col11, col12 = st.columns([1, 1])
 
     # Display content in the first column (two rows)
