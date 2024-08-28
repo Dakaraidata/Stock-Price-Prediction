@@ -2,7 +2,8 @@
 showErrorDetails = false
 
 [theme]
-primaryColor = "#F63366"
-backgroundColor = "#0E1117"
-textColor = "#FAFAFA"
-secondaryBackgroundColor="#262730"
+primaryColor="#bd93f9"
+backgroundColor="#282a36"
+secondaryBackgroundColor="#44475a"
+textColor="#f8f8f2"
+
